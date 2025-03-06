@@ -1,0 +1,35 @@
+.products {
+    padding: 50px 20px;
+    background: #3a9f4a;
+  }
+  
+  .product-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr auto;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .product-card {
+    background: #f9eba3;
+    border-radius: 6px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: -3px -1px 16px 4px #f9eba3;
+    text-align: center;
+    width: 250px;
+  }
+  
+  .product-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .buttonShop {
+    border-radius: 6px;
+  }
+
+  .buttonInfo {
+    border-radius: 6px;
+  }
